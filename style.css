@@ -245,3 +245,105 @@ header {
       color: #6070FF;
     }
 
+    .aboutUS {   
+        width: 375px;
+        height: 1050px;
+        padding: 50px 4px 11px 24px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-top-right-radius: 80px;
+        
+      }
+      .aboutMyselftext{
+        width: 352px;
+        height: 49px;
+        font-family: poppins, sans-serif;
+        font-weight: 800;
+        font-size: 46px;
+        line-height: 42px;
+        color: #172b4d;
+        
+      }
+      .aboutMyselflinertext{
+        width: 338px;
+        height: 160px;
+        font-family: poppins, sans-serif;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 28px;
+        color: #172b4d;
+        
+  
+      }
+      .bt2{
+        width: 170px;
+        height: 48px;
+        top: 12px;
+        padding: 12px;
+        border-radius: 8px;
+        border: 1px solid #6070FF;
+        font-family: poppins,sans-serif;
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: #6070FF;
+        background-color: #ffff;
+      }
+      .skills{
+        width: 327px;
+        height: 72px;
+        padding-top:  20px;
+      }
+      .langu1{
+        display:flex;
+        justify-content: space-between;
+        width: 327px;
+        height: 72px;      
+        margin-top: 20px;
+        
+      }
+      .Union{
+        width: 12px;
+        height: 6px;
+        padding-top: 32px;
+        padding-right: 10px;
+      }
+      .l3{
+    
+        font-family: Poppins,sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding-left: 10px;
+      }
+      .codinglanguages{
+        width: 327px;
+        height: 72px;
+        padding-top:  10px;
+        margin-top: 10px;
+        padding-left: 10px;
+        display: flex;
+        background-color: #F7F7F9;
+        border-radius: 10px;
+        padding-bottom: 10px;
+      }
+      .codingtext{
+        font-family: Poppins,sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding-top: 11px;
+        padding-left: 25px;
+      }
+      .forms{
+        width: 375px;
+        height: 700px;
+        padding-top: 50px;
+      }
+    
