@@ -195,27 +195,35 @@
         const closeBtn = document.getElementById('closeBtn');
         const menuItems = mobileMenu.querySelectorAll('a');
 
-        // Show the mobile menu
         menuIcon.addEventListener('click', () => {
             mobileMenu.style.display = 'block';
         });
 
-        // Hide the mobile menu
         closeBtn.addEventListener('click', () => {
             mobileMenu.style.display = 'none';
         });
 
-        // Hide the menu when an option is clicked
         menuItems.forEach(item => {
             item.addEventListener('click', () => {
                 mobileMenu.style.display = 'none';
-                // Optional: Add scrolling to the target section if necessary
                 const target = document.querySelector(item.getAttribute('href'));
                 if (target) {
                     target.scrollIntoView({ behavior: 'smooth' });
                 }
             });
+            
         });
+
+        const logo = document.getElementById('logo');
+
+// Add scroll functionality for logo
+logo.addEventListener('click', () => {
+    const contactSection = document.getElementById('Contactform');
+    if (contactSection) {
+        contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
+});
+
     </script>
 </body>
 </html>
