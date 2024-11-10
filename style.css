@@ -48,7 +48,7 @@ header {
 
 
 .headliner {
-  background-image: url('/Assests/background.png');
+  background-image: url('/Assests/backgrd.png');
   width: 375px;
   height: 400px;
   background-repeat: no-repeat;
@@ -353,7 +353,7 @@ header {
       border-top-left-radius: 80px ;
       padding-top: 65px;
       background-color: #6070ff;
-      background-image: url(/Assests/background.png);
+      background-image: url(/Assests/backgrd.png);
       margin-top: 100px;
     }
     .contactheader{
