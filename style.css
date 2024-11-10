@@ -48,7 +48,7 @@ header {
 
 
 .headliner {
-  background-image: url(/Assests/background.png);
+  background-image: url('/Assests/background.png');
   width: 375px;
   height: 400px;
   background-repeat: no-repeat;
